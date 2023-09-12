@@ -1,0 +1,35 @@
+PODS:
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - native_opencv (0.0.1):
+    - Flutter
+    - OpenCV (= 4.3.0)
+  - OpenCV (4.3.0)
+
+DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - Flutter (from `Flutter`)
+  - native_opencv (from `.symlinks/plugins/native_opencv/ios`)
+
+SPEC REPOS:
+  trunk:
+    - OpenCV
+
+EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  Flutter:
+    :path: Flutter
+  native_opencv:
+    :path: ".symlinks/plugins/native_opencv/ios"
+
+SPEC CHECKSUMS:
+  camera_avfoundation: 3125e8cd1a4387f6f31c6c63abb8a55892a9eeeb
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  native_opencv: 4febd80887abdb0da574e541c1b8aa8b92eb05ed
+  OpenCV: 681e0451c1e54c5930a8922277f817ed5d5ab459
+
+PODFILE CHECKSUM: ae273562e2241d2b1bd4b6d2d349a48b8fe1a2a7
+
+COCOAPODS: 1.12.1
